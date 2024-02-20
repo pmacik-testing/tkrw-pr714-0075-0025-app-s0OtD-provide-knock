@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rodq
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr714-0075-0025-tenant/tkrw-pr714-0075-0025-app/devfile-sample-rodq@sha256:f1a66f5c3f9284b22fbe818ad173ab8026d8d709f551ccccbce13238b09e4de0
         name: my-nodejs
         ports:
         - containerPort: 3001
